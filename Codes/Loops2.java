@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Loops2 {
     public static void main(String[] args) {
         int i=1;
