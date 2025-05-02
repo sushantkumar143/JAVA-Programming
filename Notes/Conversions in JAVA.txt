@@ -1,0 +1,33 @@
+Convert INT to String
+
+1. Using String.valueOf() (Recommended)
+int num = 123;
+String str = String.valueOf(num);
+System.out.println(str);  // Output: "123"
+
+2. Using Integer.toString()
+int num = 123;
+String str = Integer.toString(num);
+System.out.println(str);  // Output: "123"
+
+3. Using String Concatenation
+int num = 123;
+String str = num + "";  
+System.out.println(str);  // Output: "123"
+
+
+Convert STRING to INT
+
+1. Using Integer.parseInt() (Recommended)
+String str = "123";
+int num = Integer.parseInt(str);
+System.out.println(num);  // Output: 123
+
+2. Using Integer.valueOf()
+String str = "123";
+int num = Integer.valueOf(str);  // Returns Integer object but auto-unboxes to int
+System.out.println(num);  // Output: 123
+
+
+
+System.out.println(String.format("%02d:%02d:%02d", hr, min, sec));
